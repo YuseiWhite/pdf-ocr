@@ -15,7 +15,8 @@ if len(tools) == 0:
 lan = "eng"
 
 # 抽出したいファイル名を指定
-f_name = "test"
+f_name = input("Enter PDF file name you want to extract text data: ")
+print("input!")
 
 # パスを設定
 pdf_path = Path(f"{f_name}.pdf")
